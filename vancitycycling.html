@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="utf-8">
+      <title>Chamira Perera Portfollio</title>
+      <link href="css/projectsnav.css" rel="stylesheet">
+      <link href="css/vancitycycling.css" rel="stylesheet">
+      <link rel="shortcut icon" href="img/logo_1.png">
+   </head>
+   <body>
+
+      <!-- navbar section  -->
+      <div class="navbar">
+         <input type="checkbox" id="navbar-checkbox">
+         <div class="navbar-header">
+           <div class="navbar-title">
+            <img src="img/logo.png" alt="logo"  class="logo">
+           </div>
+         </div>
+         <div class="navbar-responsive-button">
+           <label for="navbar-checkbox">
+             <span class="hamburger-icon"></span>
+             <span class="hamburger-icon"> </span>
+             <span class="hamburger-icon"></span>
+           </label>
+         </div>
+         <ul class="nav navbar-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projectlist.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+       </div>
+      <!-- contact label -->
+      <div class="animation">
+
+         <h1 class="spacerheader"> Vancity Cycling</h1>
+      
+         <img src="img/vancityscreenshot.png" alt="Paris" class="centerimg4">
+
+         <h2>Description</h2>
+         <p>VanCity Cycling is a mobile application for Android that allows novice cyclist to travel around the city of Vancouver. This was an academic project that 
+            was completed in a two-person team where the goal was to encourage more Vancouverites to use cycling as an alternative mode of transportation. The app 
+            features many tools that would make the cycling experience for novice cyclist as safe and as comfortable as possible. With Vancity Cycling users have the ability
+            to plan out the their cycling trips around the city of Vancouver and provides information that can help them get on the right track when beginning their cycling
+            experience. After 8 weeks of buiding and refining this application we were given the opportunity to present Vancity Cyclying to the city of Vancouver's Transportation
+            Division where we gave a demonstration of a walkthough of the app.</p>
+
+            
+	<div class="team-summary">
+
+		<div class="left">
+	<h2> Team & Roles </h2>
+		<p> <b>Carissa Shum</b> <br>Designer & Application Development</p>
+		<p> <b>Chamira Perera</b><br> Designer & Application Development </p>
+	</div>
+
+
+	<div class="center">
+	<h2> Tools Used </h2>
+		<p>Figma</p>
+        <p>Android Studios</p>
+		<p>Java</p>
+        <p>XML</p>
+		
+	</div>
+
+
+	<div class="right">
+	<h2> Duration </h2>
+		<p> 8 weeks <br> (FEB - APR 2021)</p>
+	</div>
+		
+	</div>
+
+    <h2>Wireframe and Interface Design</h2>
+         <p>The first part of the project consisted of interface layout, feature ideation, colour layout and overall design of the app. This was done through Figma
+            where interfaces of each possible page was designed, such as the main map screen or the account login page. While designing the interface different 
+            features were considered as well as different colour palettes. Ultimately the city of Vancouver colour palette was chosen to match the city the app was being used in.
+            Once the entire interface was designed on Figma the layout was then coded in Android Studios using XML. 
+          </p>
+
+            <div class="container">
+                <div class="category">
+                 <img src="img/vancitywireframe.PNG" alt="poop" class="imgwidth" >
+               
+
+                 <img src="img/vancitycyclinginterface.PNG" alt="poop" class="imgwidth"  >
+                 
+               </div>
+               <figcaption>Figma Wireframes and XML code of App Interface</figcaption>
+            </div>
+            <h2>Application Features</h2>
+            <p> The main functionality of the app was to provide a map and a route for cyclist to follow, so the map of the city was
+                central focus of the homepage with the options to set your route based off of user search entry or by selecting landmarks in the application's database. Users also 
+                have the ability to create checklist that gave them the opportunity to create detailed list of what they needed to help them prepare for their trips. Users can also 
+                edit and update these lists as well as delete certain tasks in a checklist or the whole checklist itself.
+
+            </p>
+           
+         
+              <h3>Database & User Preferences</h3>
+              <main class='main'>
+
+               <section class='left section'>
+             
+                 <p>The database was created using SQLite which was able to store user information such as account information (first & last name, username, password,etc.) as 
+                    well as the ability to store favourite cycling routes. The database also stored checklist data so that each user of the app hace their own checklists stored. The 
+                    database also contained all the bike routes in Vancouver and had data to predetermined routes that users have a choice to choose from. The application also has
+                     has the ability to store user setting such as setting and saving light or dark mode.                   
+                   </p>
+             
+               </section>
+               <section class='right section'>
+             
+                 <video src='img/vancitydatabase.mp4' controls></video>
+                 <figcaption class="figcap2">Database Functionality in App. Video Credit: Carissa Shum</figcaption>
+
+             
+               </section>
+             
+             </main>
+            <h3>Map Functionality</h3>
+            
+
+            <div class="container">
+               <div class="category">
+                  <img src="img/vancitylandmarks.PNG" alt="poop" class="imgwidth2" >
+                <img src="img/vancitypopularroutes.PNG" alt="poop" class="imgwidth2" >
+                <img src="img/vancitypopularroutes.PNG" alt="poop"class="imgwidth2" ></div>
+           </div>
+           <figcaption class="figcap2">Landmarks, Popular Routes, and Create Route Interface</figcaption>
+           <p>
+            In the map section of the application users have the options of creating their cycling route by either creating their own route, selecting from their most popular routes, 
+            or selecting a route to a landmark in Vancouver. In the create route section users had the ability to choose their start and end points by searching each point. 
+            The application will look through the database to see if there are available routes to the selected points and then display whichever routes for the user to choose from. 
+            Each option provided will also give the user detailed information about their 
+            selected route such as the route number, route distance, duration and bikeways type. Once the route is selected an outline of the trip will appear on the map 
+            and will adjust according to the user’s position. 
+         </p>
+         <p>
+            The next way to create a cycling route was by using the popular routes section. In this section users will have access 
+            to different predetermined routes that can be selected to cycle. These routes can be filtered to help users find the routes 
+            that they are most comfortable with. Users can then favourite these routes which are stored in the SQL database where users will then be
+             able to save and have access to if they want to cycle that particular route again.
+            </p>
+            
+             <p>
+            Lastly a landmarks page was created with different popular landmarks across Vancouver that could be visited by cycling. 
+            This section of the app would display the landmarks in a list form and when the user selected the landmark they wanted to visit, 
+            the app would then create a route for them using Directions API from their current location to the landmark.
+            
+           </p>
+
+            <h3>Sensor Data & Extra Features</h3>
+            <main class='main'>
+
+               <section class='left section'>
+             
+                 <p>The app also took advantage of the GPS information as well as information provided by the sensors in android devices that would benefit a cycist while on their trip. 
+                  The app uses GPS to determine where the user is and then gets the current temperature for the user. If the temperature goes below 7ºC or above 18ºC and the 
+                   user plans to start a trip they will be alerted of weather it is hot or cold outside and will be reccomended to plan for their trip accordingly. The GPS was also used 
+                   to track the users current location so as they are cycling their speed is displayed on resource page and will adjust accordingly.  
+                   </p>
+
+                   <p>
+                   The air pressure sensor also provides information which lets users know if they are experiencing a more challenging part of their trip. If the sensor reads that air
+                   pressure is increasing then that means the cyclist is on an incline. Resources are also provided to users that link to bike laws in Vancouver, gerenal cycling safety, 
+                and access to the city of Vancouver website where they can learn more about the city they are cycling in.   </p>
+    
+                 
+             
+               </section>
+               <section class='right section2'>
+             
+                  <img src="img/vancityresensors.PNG" alt="poop" class="imgwidth">
+                  <img src="img/vancitypopularroutes.PNG" alt="poop" class="imgwidth" >
+                  <figcaption class="figcap2">Resource Page with Sensor data & In-app Weather Alerts </figcaption>
+
+             
+               </section>
+             
+             </main>
+            <p > The last feature that was implement was the ability for users to switch between light and dark mode. This was a user preference setting that users could toggle
+               and could be saved based on the user's account.  </p>
+               <img src="img/vancitypopularroutes.PNG" alt="poop" class="centerimg" >
+               <figcaption class="figcap2">Light & Dark Mode Functionality</figcaption>
+
+          
+
+   
+           <h2 >Final Product</h2>
+           <p> The video below is an overview and walk through of the application and it's features. For future development of Vancity Cyclying, the idea of a rating system for 
+              the routes were discussed but due to deadline constraints were left out of the presented app. Throughout the 8 weeks working on the projects I've developed a comfotable
+            understanding of designing and creating mobile applications such as using XML for front-end mobile application design and Java, JSON, and web APIs for backend mobile application
+            development. Our group was lucky enough after presenting this to our peers to get the opporutnity by City of Vancouver to present a demonstration of the 
+            VanCity Cycling to the transportation division of work done by bundergraduate students.  
+           </p>
+          
+              <video src='http://media6000.dropshots.com/photos/1381926/20170326/005611.mp4' controls class="videocenter"></video>
+              <figcaption class="figcap2">Final Video Application walkthrough. Video Credit: Carissa Shum</figcaption>
+
+<!-- footer -->
+<footer class="footer">
+         <div class="content">
+            <div class="info_section text_center">
+               <div class="text_left">
+                  <h2 class="subsection_heading">EXTERNAL LINKS</h2>
+                  <ul>
+                     <li class="subsection_heading">Check out my style guide and citations to make this page</li>
+                     <li> <a href="styleguide.html">Style Guide</a></li>
+                     <li> <a href="citations.html">Citation Page</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </footer> 
+   </body>
+</html>
