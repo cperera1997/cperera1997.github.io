@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:400");
+
+html, .grid-container { height: 100%; margin: 0; }
+
+body { font-family: 'Oswald', sans-serif; font-size: 15px; font-weight: 400; line-height: 1.5em; height: 100%; margin: 0; background-color: white; }
+
+.ig { grid-area: ig; }
+
+.twitter { grid-area: twitter; }
+
+.email { grid-area: email; }
+
+.contact-me-here { padding: 0.5rem; margin-top: 2REM; background-color: slateblue; grid-area: contact-me-here; font-size: inherit; }
+
+h1 { font-size: 4rem; }
+
+h2 { font-size: 2rem; }
+
+h3 { font-size: 1.5rem; }
+
+.contact-label { background-color: slateblue; grid-area: contact-label; text-align: center; font-size: inherit; padding: 0.2rem; margin-bottom: 1rem; }
+
+.navigationbar { grid-area: navigationbar; }
+
+.send-message-to-contact { margin-right: 25rem; padding-left: 4rem; background-color: slateblue; grid-area: send-message-to-contact; }
+
+.center { display: block; margin-left: auto; margin-right: auto; width: 50%; text-align: center; }
+
+footer a { text-decoration: underline; }
+
+footer a:hover { text-decoration: none; }
+
+.footer { margin-top: 7REM; background-color: #1a1a1a; left: 0; bottom: 0; width: 100%; color: white; text-align: left !important; }
+
+.footer .content { padding-top: 30px; padding-left: 20%; padding-right: 20%; padding-bottom: 20px; display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: 1fr; grid-column-gap: 0px; grid-row-gap: 0px; }
+
+.footer .content .info_section { grid-area: 1 / 1 / 2 / 2; padding-right: 2px; }
+
+.footer li { font-size: 0.8rem; color: #9b9b9b; padding-bottom: 0.5em; }
+
+.footer a { font-size: 0.8rem; color: #9b9b9b; padding-bottom: 0.5em; }
+
+.footer a:hover { color: white; border: none; }
+
+div.gallery img { width: 70%; height: auto; }
+
+.responsive { margin: 2rem; padding: 0 6px; float: left; width: 20%; }
+
+@media only screen and (max-width: 1520px) { .responsive { width: 20%; margin: 6px 0; } }
+
+@media only screen and (max-width: 755px) { .responsive { display: flex; margin-left: auto; margin-right: auto; width: 45%; margin-top: 1rem; }
+  h2 { font-size: 23px; } }
+
+@media only screen and (max-width: 255px) { .contact-label h1 { font-size: 2rem; }
+  .contact-me-here h2 { font-size: 1.5rem; } }
+
+.clearfix:after { content: ""; display: table; clear: both; }
+
+input[type=text], select, textarea { width: 90%; padding: 12px; border: 1px solid #ccc; resize: vertical; }
+
+label { padding: 12px 12px 12px 0; display: inline-block; font-size: 20px; }
+
+input[type=submit] { font-family: 'Oswald', sans-serif; background-color: slateblue; color: white; margin: 1rem; margin-left: 0; padding: 1rem; border: none; width: 50%; cursor: pointer; float: left; font-size: 20px; }
+
+input[type=submit]:hover { background-color: #5849b8; }
+
+.container { border-radius: 5px; padding: 20px; }
+
+.col-25, .col-75 { width: 100%; margin-top: 0; }
+
+@media only screen and (max-width: 755px){
+.responsiveicon{
+width: 30%;
+}
+}

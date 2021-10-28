@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:400");
+body { font-family: sans-serif; padding: 2rem; }
+
+.element { padding-bottom: 2rem; border-top-width: 0.15rem; border-top-style: solid; border-top-color: black; }
+
+h1 { color: Black; font-size: 3rem; margin-top: 1rem; margin-bottom: 0.2rem; }
+
+h2 { color: black; font-size: 2rem; margin-top: 0.3rem; margin-bottom: 0.3rem; }
+
+* { margin: 0; padding: 0; box-sizing: border-box; list-style: none; text-decoration: none; font-family: 'Oswald'; }
+
+a { color: #000; }
+
+a:hover { color: slateblue; }
+
+footer a { text-decoration: underline; }
+
+footer a:hover { text-decoration: none; }
+
+.footer { margin-top: 7REM; background-color: #1a1a1a; left: 0; bottom: 0; width: 100%; color: white; text-align: left !important; }
+
+.footer .content { padding-top: 30px; padding-left: 20%; padding-right: 20%; padding-bottom: 20px; display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: 1fr; grid-column-gap: 0px; grid-row-gap: 0px; }
+
+.footer .content .info_section { grid-area: 1 / 1 / 2 / 2; padding-right: 2px; }
+
+.footer li { font-size: 0.8rem; color: #9b9b9b; padding-bottom: 0.5em; }
+
+.footer a { font-size: 0.8rem; color: #9b9b9b; padding-bottom: 0.5em; }
+
+.footer a:hover { color: white; border: none; }

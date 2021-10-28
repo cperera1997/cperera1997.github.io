@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:400");
+
+html,
+.grid-container {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 1.5em;
+	height: 100%;
+	margin: 0;
+	background-color: white;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+.navigationbar {
+	grid-area: navigationbar;
+}
+
+.project-2-label {
+	background-color: slateblue;
+	text-align: center;
+	padding: 0.2rem;
+	margin-bottom: 1rem;
+}
+
+.about-project {
+	grid-area: about-project;
+	background-color: slateblue;
+	text-align: center;
+	padding: 0.2rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.project-2-description {
+	grid-area: project-1-description;
+	text-align: center;
+}
+
+.the-process {
+	background-color: slateblue;
+	grid-area: the-process;
+	text-align: center;
+	padding: 0.2rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.process-description {
+	grid-area: process-description;
+	text-align: center;
+}
+
+.final-product {
+	background-color: slateblue;
+	grid-area: final-product;
+	text-align: center;
+	padding: 0.2rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.final-description {
+	grid-area: final-description;
+	text-align: center;
+}
+
+.hero_home {
+	height: auto;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/heroimg2.PNG');
+	height: 80vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	text-decoration: none;
+}
+
+#myimages {
+	white-space: nowrap;
+}
+
+#myimages img {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 6rem;
+	margin-right: auto;
+	width: 25%;
+}
+
+@media screen and (max-width: 990px) {
+	#myimages img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		margin-top: 1rem;
+	}
+	.videocontainer {
+		position: relative;
+		width: 100%;
+		overflow: hidden;
+		padding-top: 26.25%;
+	}
+	.responsive-iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+		margin-right: auto;
+		margin-left: auto;
+		border: none;
+	}
+}
+
+@media screen and (max-width: 270px) {
+	.project-2-label h1 {
+		font-size: 2.5rem;
+	}
+}
+
+@media screen and (max-width: 370px) {
+	h2 {
+		font-size: 2rem;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.project-2-description p {
+		font-size: 1rem;
+	}
+	.process-description p {
+		font-size: 1rem;
+	}
+	.final-description p {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 990px) {
+	#myimages img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 30%;
+		margin-top: 1rem;
+	}
+}
+
+@media screen and (max-width: 245px) {
+	h2 {
+		font-size: 1.5rem;
+	}
+}
+
+.footer {
+	grid-area: footer;
+	background-color: #1a1a1a;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: left!important;
+}
+
+.footer .content {
+	padding-top: 30px;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 20px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
+.footer .content .info_section {
+	grid-area: 1 / 1 / 2 / 2;
+	padding-right: 2px;
+}
+
+.footer li {
+	font-size: 0.8rem;
+	color: #9b9b9b;
+	padding-bottom: 0.5em;
+}
+
+.footer a {
+	font-size: 0.8rem;
+	color: #9b9b9b;
+	padding-bottom: 0.5em;
+}
+
+.footer a:hover {
+	color: white;
+	border: none;
+}
+
+.videocontainer {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	padding-top: 26.25%;
+}
+
+.responsive-iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 50%;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	border: none;
+}
+
+p {
+	font-size: 20px;
+	margin: 2rem;
+}

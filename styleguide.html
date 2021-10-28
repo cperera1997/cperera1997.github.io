@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Chamira Portfollio Style Guide</title>
+      <link href="css/styleguide.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Oswald:400" rel="stylesheet">
+      <link rel="shortcut icon" href="img/logo_1.png">
+
+   </head>
+   <body>
+      <header>
+
+         <h1>P03 - CHAMIRA PERERA PORTFOLLIO STYLE GUIDE</h1>
+         <!-- navbar section -->
+         <nav>
+            <a href="#interactive_elements" class="button">Interactive Elements</a>
+            <a href="#text_elements" class="button">Text Elements</a>
+            <a href="#combined_elements" class="button">Combined Elements</a>
+            <a href="#Brand_Components" class="button">Brand Components</a>
+            <a href="index.html" class="button">Portfollio</a>
+         </nav>
+         <!-- INTERACTIVE ELEMENTS SECTION  -->
+      </header>
+      <section id="interactive_elements">
+         <h2>Interactive Elements </h2>
+         <section class="element">
+            <h3>In-text Link</h3>
+            <p><b><a href="about.html">Find out more about me &rarr;</a></b></p>
+            <h3>CSS selector:</h3>
+            <code>
+            a:hover
+            <br>
+            a
+            </code>
+            <h3>Sample Code</h3>
+            <code>
+            &lt;p&gt;&lt;b&gt;&lt;a href="about.html" &gt;Find out more about me &rarr;&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;      </code>
+         </section>
+         <section class="element">
+            <h3> Navigation link</h3>
+            <header>
+               <div class="navigationbar">
+                  <ul>
+                     <li><a href="index.html">HOME</a></li>
+                  </ul>
+               </div>
+            </header>
+            <h3>CSS selector:</h3>
+            <code>
+            .navigationbar
+            <br>
+            .a
+            <br>
+            .li <br>
+            <br> <br>
+            </code> <br>
+            <h3>Sample Code</h3>
+            <code>
+            &lt;div class="navigationbar"&gt;<br>
+            &lt;li>&lt;a href="index.html">HOME&lt;/a>&lt;/li&gt;<br>
+            &lt;/ul&gt;<br>
+            &lt;/header&gt;<br>
+            &lt;/div&gt;<br>
+            </code>
+         </section>
+         <section class="element">
+            <h3>Submit Buttons</h3>
+            <div class="row">
+               <input type="submit" value="Submit">
+            </div>
+            <br>
+            <br><br><br>
+            <h3>CSS selector:</h3>
+            <code>
+            row<br>
+            .a<br>
+            .input[type=submit]:hover <br>
+            .input[type=submit]<br>
+            </code>
+            <h3>Sample Code</h3>
+            <code>
+            &lt;div class="row" &gt;
+            &lt;input type="submit" value="Submit" &gt;
+            &lt;/div &gt;
+            </code>
+         </section>
+         <section class="element">
+            <h3>Text Input Field with Label</h3>
+            <div class="row">
+               <div class="col-25">
+                  <label for="fname">First Name</label>
+               </div>
+               <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="Your name">
+               </div>
+            </div>
+            <h3>CSS selector:</h3>
+            <code>
+            .container <br>
+            label <br>
+            input[type=text] <br>
+            </code>
+            <h3>Sample Code</h3>
+            <code>
+            &lt;div class="row"&gt;<br>
+            &lt;div class="col-25"&gt;<br>
+            &lt;label for="fname"&gt;First Name&lt;/label &gt;<br>
+            &lt;/div &gt;<br>
+            &lt;div class="col-75"&gt;<br>
+            &lt;input type="text" id="fname" name="firstname" placeholder="Your name.."&gt;<br>
+            &lt;/div&gt;
+            </code>
+         </section>
+         <section class="element">
+            <h3>Image as a Link</h3>
+            <a href="index.html">
+            <img src="img/logo_1.png" alt="logo">
+            </a>
+            <h3>CSS selector:</h3>
+            <code>
+            a <br>
+            a:hover <br>
+            img <br>
+            </code>
+            <h3>Sample Code</h3>
+            <code>
+            &lt;a href="index.html"&gt;<br>
+            &lt;img src="img/logo_1.png" alt="logo"&gt;<br>
+            &lt;/a&gt;<br>
+            </code>
+         </section>
+      </section>
+      <!-- TEXT ELEMENTS SECTION -->
+      <section id="text_elements">
+         <h2>Text Elements</h2>
+         <section class="element">
+            <h3>Three Levels of Headings</h3>
+            <h1 > Heading 1</h1>
+            <h2> Heading 2</h2>
+            <h3 > Heading 3</h3>
+            <h3>CSS selector:</h3>
+            <code>
+            h1 <br>
+            h2 <br>
+            h3 <br>
+            </code>
+            <h3> Sample Code </h3>
+            <code>
+            &lt;h1&gt; Heading 1&lt;/h1&gt;  <br>
+            &lt;h2&gt; Heading 2&lt;/h2&gt;  <br>
+            &lt;h3&gt; Heading 3&lt;/h3&gt;  <br>
+            </code>
+         </section>
+         <section class="element">
+            <h3>Paragraphs</h3>
+            <p> Hi, My name is Chamira and I am a 3rd year SIAT student at Simon Fraser University and my concentration is in interactive systems. My main strengths include being able to code in multiple languages such as C++, HTML/CSS, JavaScript, MATLAB, and PHP. I am also a graphic designer with proficient skills in design applications such as Adobe Illustrator, Photoshop, and Figma.
+            </p>
+            <h3>CSS selector:</h3>
+            <code>
+            p
+            </code>
+            <h3> Sample Code </h3>
+            <code>
+            &lt;p&gt; Hi, My name is Chamira and I am a 3rd year SIAT student at Simon Fraser University and my concentration is in interactive systems. 
+            &lt;/p&gt;
+            </code>
+         </section>
+         <!-- COMBINED ELEMENTS SECTION -->
+         <section id="combined_elements">
+            <h2>Combined Elements</h2>
+            <section class="element">
+               <h3>Main Navigation</h3>
+               <div class="navigationbar">
+                  <header class="header">
+                     <a href="index.html" class="logo">
+                     <img src="img/logo_1.png" alt="logo">
+                     </a>
+                     <input class="menu-btn" type="checkbox" id="menu-btn" />
+                     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                     <ul class="menu">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="projectlist.html">PROJECTS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                     </ul>
+                  </header>
+               </div>
+               <h3>CSS selector:</h3>
+               <code>
+               .navbar <br>
+               .navbar a <br>
+               .navbar a:hover <br>
+               .button <br>
+               </code>
+               <h3> Sample Code </h3>
+               <code>
+               &lt;div class="navigationbar"&gt;
+               &lt;div class="navigationbar"&gt;<br>
+               &lt;header class="header"&gt;<br>
+               &lt;a href="index.html" class="logo"&gt;<br>
+               &lt;img src="img/logo_1.png" alt=""&gt;<br>
+               &lt;/a&gt;<br>
+               &lt;input class="menu-btn" type="checkbox" id="menu-btn" /&gt;<br>
+               &lt;label class="menu-icon" for="menu-btn">&lt;span class="navicon"&gt;&lt;/span&gt;&lt;/label&gt;<br>
+               &lt;ul class="menu"><br>
+               &lt;li>&lt;a href="index.html">HOME&lt;/a>&lt;/li&gt;<br>
+               &lt;li>&lt;a href="about.html">ABOUT&lt;/a>&lt;/li&gt;<br>
+               &lt;li>&lt;a href="projectlist.html">PROJECTS&lt;/a>&lt;/li&gt;<br>
+               &lt;li>&lt;a href="contact.html">CONTACT&lt;/a>&lt;/li&gt;<br>
+               &lt;/ul&gt;
+               &lt;/header&gt;
+               &lt;/div&gt;
+               </code>
+            </section>
+            <h3>MESSAGE ME FORM</h3>
+            <div class="row">
+               <div class="col-25">
+                  <label for="finame">First Name</label>
+               </div>
+               <div class="col-75">
+                  <input type="text" id="finame" name="firstname" placeholder="Your name..">
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-25">
+                  <label for="lname">Last Name</label>
+               </div>
+               <div class="col-75">
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name">
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-25">
+                  <label for="email">Email</label>
+               </div>
+               <div class="col-75">
+                  <input type="text" id="email" name="email" placeholder="Your email address">
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-25">
+                  <label for="subject">Subject</label>
+               </div>
+               <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Write something" style="height:200px"></textarea>
+               </div>
+            </div>
+            <div class="row">
+               <input type="submit" value="Submit">
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h3>CSS selector:</h3>
+            <code>
+            label <br>
+            input[type=text] <br>
+            input[type=submit] <br>
+            </code>
+            <h3> Sample code </h3>
+            <code>
+            &lt;div class="container"> <br>
+            &lt;label for="fname"&gt;Full Name&lt;/label&gt;  <br>
+            &lt;input type="text" id="fname" name="firstname" placeholder="Michael McJeffrey"&gt;  <br>
+            &lt;label for="email"&gt; Email&lt;/label&gt;  <br>
+            &lt;input type="text" id="email" name="email" placeholder="michael@example.com"&gt;  <br>
+            &lt;label for="adr"&gt;Address&lt;/label&gt;  <br>
+            &lt;input type="text" name="address" placeholder="8884 140B ST"&gt;  <br>
+            &lt;label for="city"&gt; City&lt;/label&gt;  <br>
+            &lt;input type="text" id="city" name="city" placeholder="SURREY"&gt;  <br>
+            &lt;label for="postal"&gt;Postal Code&lt;/label&gt;  <br>
+            &lt;input type="text" id="postal" name="postal" placeholder="V3V 7T4"&gt;  <br>
+            &lt;/div&gt;  <br>
+            </code>
+         </section>
+         <!-- BRAND COMPONTENT -->
+         <section id="Brand_Components">
+            <h2>Brand Components</h2>
+            <section class = "element">
+               <h3> Fonts </h3>
+               <p >OSWALD</p>
+               <p><b> OSWALD</b> </p>
+               <p><I> OSWALD</I> </p>
+               <h3>Colour Palettes </h3>
+               <div class="card_group">
+                  <ul>
+                     <li class="card">
+                        <div class="bluesquare subsection_heading"></div>
+                        <h3 class=subsection_heading> Slate Blue </h3>
+                     </li>
+                     <li class="card">
+                        <div class="greysquare subsection_heading"></div>
+                        <h3 class=subsection_heading> Slate Gray </h3>
+                     </li>
+                     <li class="card">
+                        <div class="blacksquare subsection_heading"></div>
+                        <h3 class=subsection_heading> Black </h3>
+                     </li>
+                     <li class="card">
+                        <div class="whitesquare subsection_heading"></div>
+                        <h3 class=subsection_heading> White </h3>
+                     </li>
+                  </ul>
+               </div>
+               <h3>Images, Videos, Logos, & Icons </h3>
+               <img alt="Meal" src="img/art1.png" style="width:300px;height:300px;" >
+               <img alt="Meal" src="img/art2.PNG" style="width:300px;height:300px;" >
+               <img alt="Meal" src="img/me.jpg" style="width:300px;height:300px;">
+               <img alt="Meal" src="img/heroimg1.PNG" style="width:300px;height:300px;" >
+               <img alt="Meal" src="img/heroimg2.PNG" style="width:300px;height:300px;" >
+               <img alt="Meal" src="img/BRAINSTORM.PNG" style="width:300px;height:300px;" >
+               <img alt="Meal" src="img/illustrator.png" style="width:300px;height:300px;" >
+               <img alt="Meal" src="img/photoshop.png" style="width:300px;height:300px;" >
+               <img alt="Meal" src="img/html-5.png" style="width:300px;height:300px;" >
+               <img alt="Meal" src="img/css.png" style="width:300px;height:300px;" >
+               <img alt="Meal" src="img/logo_1.png" style="width:300px;height:300px;" >
+               <img alt="Meal" src="img/twiiter_2.png" style="width:300px;height:300px;" >
+               <div class="videocontainer"> 
+                  <iframe class="responsive-iframe" src="img/Final.mp4"></iframe>
+               </div>
+            </section>
+         </section>
+      </section>
+      <!-- FOOTER -->
+      <footer class="footer">
+         <div class="content">
+            <div class="info_section text_center">
+               <div class="text_left">
+                  <h2 class="subsection_heading" style="color:white">EXTERNAL LINKS</h2>
+                  <ul>
+                     <li> <a href="index.html">Portfollio</a></li>
+                     <li> <a href="styleguide.html">Style Guide</a></li>
+                     <li> <a href="citations.html">Citation Page</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>

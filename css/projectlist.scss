@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:400");
+
+html,
+.grid-container {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 1.5em;
+	height: 100%;
+	margin: 0;
+	background-color: white;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 0.1fr 4fr 5fr 1fr 1fr 4fr 1.9fr 1fr 0.7fr 0.7fr 1fr;
+	gap: 0px 0px;
+	grid-template-areas: "navigationbar navigationbar navigationbar navigationbar navigationbar" "projlist-label projlist-label projlist-label projlist-label projlist-label" "proj1-pic proj1-pic proj1 proj1 proj1" "proj1-pic proj1-pic proj-1-description proj-1-description proj-1-description" "proj1-pic proj1-pic proj1-link proj1-link proj1-link" ". . . . ." "proj2 proj2 proj2 proj2-pic proj2-pic" "proj2-description proj2-description proj2-description proj2-pic proj2-pic" "proj2-link proj2-link proj2-link proj2-pic proj2-pic" ". . . . ." "footer footer footer footer footer" "footer footer footer footer footer";
+}
+
+p {
+	font-size: 20px;
+}
+
+.proj1-pic {
+	grid-area: proj1-pic;
+}
+
+.proj1-pic>img {
+	object-fit: contain;
+	width: 90%;
+	max-height: 100%;
+}
+
+.proj1 {
+	margin-left: 1REM;
+	padding-right: 1REM;
+	font-size: 20px;
+	background-color: slategrey;
+	grid-area: proj1;
+	text-align: right;
+}
+
+.proj-1-description {
+	padding-right: 1rem;
+	margin-left: 1REM;
+	grid-area: proj-1-description;
+}
+
+.proj1-link {
+	padding-right: 1rem;
+	margin-left: 1rem;
+	grid-area: proj1-link;
+}
+
+.proj2-pic {
+	grid-area: proj2-pic;
+}
+
+.proj2-pic>img {
+	object-fit: contain;
+	width: 90%;
+	max-height: 100%;
+}
+
+.proj2 {
+	font-size: 20px;
+	grid-area: proj2;
+	margin-right: 1REM;
+	padding-left: 1rem;
+	background-color: slategrey;
+	grid-area: proj2;
+	text-align: left;
+}
+
+.proj2-description {
+	padding-left: 1rem;
+	grid-area: proj2-description;
+	margin-right: 1rem;
+}
+
+.proj2-link {
+	padding-left: 1rem;
+	margin-right: 1rem;
+	grid-area: proj2-link;
+}
+
+.navigationbar {
+	grid-area: navigationbar;
+}
+
+.projlist-label {
+	text-align: center;
+	grid-area: projlist-label;
+	background-color: slatebluE;
+	margin-bottom: 3rem;
+	font-size: 2rem;
+}
+
+.footer {
+	grid-area: footer;
+	background-color: #1a1a1a;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: left!important;
+}
+
+.footer .content {
+	padding-top: 30px;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 20px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
+.footer .content .info_section {
+	grid-area: 1 / 1 / 2 / 2;
+	padding-right: 2px;
+}
+
+.footer li {
+	font-size: 0.8rem;
+	color: #9b9b9b;
+	padding-bottom: 0.5em;
+}
+
+.footer a {
+	font-size: 0.8rem;
+	color: #9b9b9b;
+	padding-bottom: 0.5em;
+	text-decoration: underline;
+}
+
+.footer a:hover {
+	color: white;
+	border: none;
+}
+
+@media only screen and (max-width: 320px) {
+	.proj1 {
+		margin-left: 1REM;
+		padding-right: 1REM;
+		font-size: 15px;
+		background-color: slategrey;
+		grid-area: proj1;
+		text-align: right;
+	}
+	.proj2 {
+		font-size: 15px;
+		grid-area: proj2;
+		margin-right: 1REM;
+		padding-left: 1rem;
+		background-color: slategrey;
+		grid-area: proj2;
+		text-align: left;
+	}
+	p {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 250px) {
+	.proj1 {
+		margin-left: 1REM;
+		padding-right: 1REM;
+		font-size: 12px;
+		background-color: slategrey;
+		grid-area: proj1;
+		text-align: right;
+	}
+	.proj2 {
+		font-size: 12px;
+		grid-area: proj2;
+		margin-right: 1REM;
+		padding-left: 1rem;
+		background-color: slategrey;
+		grid-area: proj2;
+		text-align: left;
+	}
+	p {
+		font-size: 10px;
+	}
+}

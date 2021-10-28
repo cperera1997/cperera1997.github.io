@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:400");
+
+html, .grid-container { height: 100%; margin: 0; }
+
+body { font-family: 'Roboto', sans-serif; font-size: 15px; font-weight: 300; line-height: 1.5em; height: 100%; margin: 0; background-color: black; }
+
+.resumelink a{
+  display: block;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-family: 'Roboto';
+  font-weight: 400;
+
+}
+
+
+h1 { 
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 4rem;
+  color: white; 
+  letter-spacing: 3px;
+margin-left: 4rem; 
+padding-top: 3.5rem;
+}
+
+h2 { 
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 4rem;
+  color: white; 
+  letter-spacing: 3px;
+margin-left: 4rem; 
+padding-top: 3.5rem;
+}
+
+.click-animations {
+  margin-top: 35px;
+  padding-bottom: 20px;
+}
+
+.click-animations input {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  height: 50px;
+  font-size: 30px;
+  outline: none;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.click-animations textarea {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 30px;
+  outline: none;
+  border: 2px solid transparent;
+  resize: none;
+  transition: 0.3s;
+}
+
+.click-animations input:focus,
+.click-animations textarea:focus {
+  border-color: #6930c3;
+}
+
+.click-animations button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 80%;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  background: #6930c3;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.click-animations button:active {
+  transform: scale(0.95);
+}
+
+.form-error {
+  border-color: #F46036 !important;
+}
+
+/* .contact-label { background-color: slateblue; grid-area: contact-label; text-align: center; font-size: inherit; padding: 0.2rem; margin-bottom: 1rem; } */
+
+footer a { text-decoration: underline; }
+
+footer a:hover { text-decoration: none; }
+
+.footer { margin-top:0; background-color: #1a1a1a; left: 0; bottom: 0; width: 100%; color: white; text-align: left !important; }
+
+.footer .content { padding-top: 30px; padding-left: 20%; padding-right: 20%; padding-bottom: 20px; display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: 1fr; grid-column-gap: 0px; grid-row-gap: 0px; }
+
+.footer .content .info_section { grid-area: 1 / 1 / 2 / 2; padding-right: 2px; }
+
+.footer li { font-size: 0.8rem; color: #9b9b9b; padding-bottom: 0.5em; }
+
+.footer a { font-size: 0.8rem; color: #9b9b9b; padding-bottom: 0.5em; }
+
+.footer a:hover { color: white; border: none; }
+
+p{
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 1.3rem;
+  color:white;
+  margin-left:4rem;
+  margin-right:4rem;
+ 
+}
+
+form{
+  display: block;
+}
+
+textarea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  width: 80%;
+  padding: 12px; /* Some padding */ 
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 12px; /* Some padding */ 
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+label{
+  display: block;
+  margin-left: 10%;
+  margin-bottom: .01%;
+}
+  
+
+/* Style the submit button with a specific background color etc */
+button[type=submit] {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 1rem;
+  height: 3rem;
+  background-color: #56cfe1;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  display:block;
+  cursor: pointer;
+ 
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+button[type=submit]:hover {
+  background-color: #46aebe;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+	background-image: linear-gradient(to bottom right, #6930c3 0%, #56cfe1 100%);
+  margin-top: 6rem;
+  padding: 20px;
+}
+
+img {
+  margin-top: 1.5rem;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 2rem;
+  width: 10%;
+
+}
+
+.responsiveicon {
+  width: 10%;
+  height: auto;
+}
+
+@media only screen and (max-width: 1100px){
+  .responsiveicon{
+  width: 20%;
+  }
+  }
+
+  @media only screen and (max-width: 560px){
+    .responsiveicon{
+    width: 15%;
+    }
+    }
+  
+
+#imagesMain {
+  padding: 0;
+  text-align: center;
+}
+
+
+
+.animation{
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+
+@media (max-width: 610px) {
+h1{
+  font-size: 2rem;
+}
+h2{
+  font-size: 1.5rem;
+}
+.resumelink a{
+  display: block;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-family: 'Roboto';
+  font-weight: 400;
+
+}
+  
+}
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
+}
