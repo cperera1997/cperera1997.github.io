@@ -14,6 +14,29 @@ body { font-family: 'Roboto', sans-serif; font-size: 15px; font-weight: 300; lin
   font-style: italic;
 
 }
+
+
+figcaption{
+  color: white;
+  text-align: center;
+  margin-left: 4rem;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.figcap2{
+  color: white;
+  text-align: center;
+  margin-left: 0rem;
+  font-style: italic;
+}
+
+.figcap3{
+  color: white;
+
+  margin-left: 50%;
+  font-style: italic;
+}
 .spacerheader{
   padding-top: 2.5rem;
 }
@@ -167,7 +190,7 @@ line-height: 2rem;
 } */
 
 .spacer{
-  margin-top: 44rem;
+  margin-top: 49rem;
 }
 .spacerbottom{
     margin-bottom: 25rem;
@@ -247,6 +270,19 @@ width:30%;
     margin-right: auto;
     width: 80%;
   }
+  
+.centerimg4 {
+  display: inline-block;
+  margin-left: 20%;
+  margin-right: auto;
+  width: 30%;
+}
+.centerimg5 {
+  display: inline-block;
+  margin-left: 1rem;
+  margin-right: auto;
+  width: 30%;
+}
   .container{
     text-align: center;
     margin-bottom: 2rem;
