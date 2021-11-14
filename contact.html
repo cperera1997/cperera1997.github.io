@@ -7,6 +7,10 @@
       <link href="css/navbarcontact.css" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet"><link rel='stylesheet' >
       <link href="css/contactcopy.css" rel="stylesheet">
+      <link href="css/resumebutton.css" rel="stylesheet">
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+      <link rel="stylesheet" href="css/socialmediabuttons.css">
+
       <link rel="shortcut icon" href="img/logo_1.png">
    </head>
    <body>
@@ -41,18 +45,57 @@
                with me using the form below. Feel free to check out my resume!
             </p>
 
-            <div id="imagesMain" >
+            <!-- <div id="imagesMain" >
             <img src="img/email.png" alt="" class="responsiveicon">
             <img src="img/ig.png" alt="" class="responsiveicon">
             <img src="img/linkedin.png" alt="" class="responsiveicon">
-            </div>
+            </div> -->
+
+            <section>
+               <ul class="icon-list">
+                 <li class="icon-item">
+                   <a href="#" class="icon-link"><i class="fab fa-instagram" style='font-size:70px'></i></a>
+                 </li>
+                 <li class="icon-item">
+                  <a href="#" class="icon-link"><i class="fas fa-envelope" style='font-size:70px'></i></a>
+               </li>
+                 <li class="icon-item">
+                   <a href="#" class="icon-link"><i class="fab fa-linkedin-in" style='font-size:70px'></i></a>
+                 </li>    
+               </ul>
+             </section>
 
 
 
-            
-            <div class="resumelink">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+               <defs>
+                   <filter id="gooey">
+                       <!-- in="sourceGraphic" -->
+                       <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
+                       <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="highContrastGraphic" />
+                       <feComposite in="SourceGraphic" in2="highContrastGraphic" operator="atop" />
+                   </filter>
+               </defs>
+           </svg>
+       
+           <button id="gooey-button">
+               Resume
+               <span class="bubbles">
+                   <span class="bubble"></span>
+                   <span class="bubble"></span>
+                   <span class="bubble"></span>
+                   <span class="bubble"></span>
+                   <span class="bubble"></span>
+                   <span class="bubble"></span>
+                   <span class="bubble"></span>
+                   <span class="bubble"></span>
+                   <span class="bubble"></span>
+                   <span class="bubble"></span>
+               </span>
+           </button>
+            <!-- <div class="resumelink">
             <a href="img/Resume.pdf" download="resumelink">Resume Download</a>
-         </div>
+         </div> -->
          <h2> Fill Form Below</h2>
          <div class="click-animations">
             <form target="_blank" action="https://formsubmit.co/chamiraperera97@gmail.com" method="POST">

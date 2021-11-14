@@ -76,7 +76,7 @@ body {
   }
 
 .navbar {
-	transform: translate(0,-75%);
+	transform: translate(0,-25%);
 	z-index: 9999;
 	height: 90px;
 	width: 100%;
