@@ -19,7 +19,19 @@ svg {
   position: relative;
   background-color: #56cfe1;
 }
-
+@media only screen and (max-width: 1490px){
+#gooey-button {
+    margin-left: 45%;
+    margin-top: 5rem;
+  padding: 1rem;
+  font-size: 2rem;
+  border: none;
+  color:white;
+  filter: url("#gooey");
+  position: relative;
+  background-color: #56cfe1;
+}
+}
 
 @media only screen and (max-width: 1290px){
     #gooey-button {
