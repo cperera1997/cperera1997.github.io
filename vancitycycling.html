@@ -95,10 +95,10 @@
                <figcaption>Figma Wireframes and XML code of App Interface</figcaption>
             </div>
             <h2>Application Features</h2>
-            <p> The main functionality of the app was to provide a map and a route for cyclist to follow, so the map of the city was
-                central focus of the homepage with the options to set your route based off of user search entry or by selecting landmarks in the application's database. Users also 
-                have the ability to create checklist that gave them the opportunity to create detailed list of what they needed to help them prepare for their trips. Users can also 
-                edit and update these lists as well as delete certain tasks in a checklist or the whole checklist itself.
+            <p> The main functionality of the app was to provide a map and a route for cyclist to follow, so we made the map of the city the
+                central focus of the homepage with the options to set your route based off of user search entry or by selecting landmarks in the application's database. 
+                I also implemented checklist feature which gave the users the ability to create checklist that allowed them to create detailed list of what they needed to help them prepare 
+                for their trips. Users can also edit and update these lists as well as delete certain tasks in a checklist or the whole checklist itself.
 
             </p>
            
@@ -108,10 +108,10 @@
 
                <section class='left section'>
              
-                 <p>The database was created using SQLite which was able to store user information such as account information (first & last name, username, password,etc.) as 
-                    well as the ability to store favourite cycling routes. The database also stored checklist data so that each user of the app hace their own checklists stored. The 
-                    database also contained all the bike routes in Vancouver and had data to predetermined routes that users have a choice to choose from. The application also has
-                     has the ability to store user setting such as setting and saving light or dark mode.                   
+                 <p>We created the database using SQLite which was able to store user information such as account information (first & last name, username, password,etc.) as 
+                    well as the ability to store favourite cycling routes. I also set the database to store checklist data so that each user of the app have their own checklists stored. The 
+                    database also contained all the bike routes in Vancouver and had data to predetermined routes that users have a choice to choose from. Lastly, we setup the database
+                    of the application to store user setting such as setting and saving light or dark mode for the user interface.                   
                    </p>
              
                </section>
@@ -135,24 +135,24 @@
            </div>
            <figcaption class="figcap2">Landmarks, Popular Routes, and Create Route Interface</figcaption>
            <p>
-            In the map section of the application users have the options of creating their cycling route by either creating their own route, selecting from their most popular routes, 
-            or selecting a route to a landmark in Vancouver. In the create route section users had the ability to choose their start and end points by searching each point. 
-            The application will look through the database to see if there are available routes to the selected points and then display whichever routes for the user to choose from. 
-            Each option provided will also give the user detailed information about their 
-            selected route such as the route number, route distance, duration and bikeways type. Once the route is selected an outline of the trip will appear on the map 
-            and will adjust according to the user’s position. 
+            In the map section of the application we decided to give users the option of creating their cycling route by either creating their own route, selecting from their most popular routes, 
+            or selecting a route to a landmark in Vancouver. In the create route section, we give users the ability to choose their start and end points by searching each point. 
+            We set up the application look through the database to see if there are available routes to the selected points and then display whichever routes for the user to choose from. 
+            I also provided the user with detailed information about their selected route such as the route number, route distance, duration and bikeways type. Once the route is selected an 
+            outline of the trip will appear on the map and will adjust according to the user’s position. 
          </p>
+         <br>
          <p>
-            The next way to create a cycling route was by using the popular routes section. In this section users will have access 
-            to different predetermined routes that can be selected to cycle. These routes can be filtered to help users find the routes 
-            that they are most comfortable with. Users can then favourite these routes which are stored in the SQL database where users will then be
-             able to save and have access to if they want to cycle that particular route again.
+            The next way we decided to let users create a cycling route was by using the popular routes section. In this section I helped connect the app 
+            to a database of different predetermined routes that users will have access to cycle on. We enabled these routes to be filtered to help users find the routes 
+            that they are most comfortable with. Users can then favourite these routes which we then stored in the SQL database where users will
+            be able to save and have access to if they want to cycle that particular route again.
             </p>
-            
+            <br>
              <p>
-            Lastly a landmarks page was created with different popular landmarks across Vancouver that could be visited by cycling. 
-            This section of the app would display the landmarks in a list form and when the user selected the landmark they wanted to visit, 
-            the app would then create a route for them using Directions API from their current location to the landmark.
+            Lastly we made a landmarks page with different popular landmarks across Vancouver that could be visited by cycling. I researched different landmarks 
+            around Vancouver then populated a database with those destinations. I then designed the section to display the landmarks in a list form and when the user
+            select the landmark they want to visit, the app would then create a route for them using Directions API from their current location to the landmark.
             
            </p>
 
@@ -161,16 +161,16 @@
 
                <section class='left section'>
              
-                 <p>The app also took advantage of the GPS information as well as information provided by the sensors in android devices that would benefit a cycist while on their trip. 
-                  The app uses GPS to determine where the user is and then gets the current temperature for the user. If the temperature goes below 7ºC or above 18ºC and the 
-                   user plans to start a trip they will be alerted of weather it is hot or cold outside and will be reccomended to plan for their trip accordingly. The GPS was also used 
-                   to track the users current location so as they are cycling their speed is displayed on resource page and will adjust accordingly.  
+                 <p>We also had the app take advantage of the GPS information as well as data provided by the sensors in android devices that would benefit a cycist while on their trip. 
+                  I used a GPS to determine where the user is and then gets the current temperature for the user. We also implemented a feature were if the temperature goes below 7ºC or above 18ºC and the 
+                   user plans to start a trip they will be alerted of weather it is hot or cold outside and will be reccomended to plan for their trip accordingly. I was also able to use the GPS 
+                   to track the users current location so as they are cycling, their speed is displayed on resource page and will adjust accordingly.  
                    </p>
-
+                  <br>
                    <p>
-                   The air pressure sensor also provides information which lets users know if they are experiencing a more challenging part of their trip. If the sensor reads that air
-                   pressure is increasing then that means the cyclist is on an incline. Resources are also provided to users that link to bike laws in Vancouver, gerenal cycling safety, 
-                and access to the city of Vancouver website where they can learn more about the city they are cycling in.   </p>
+                   I also took advantage of the data provided by a devices air pressure sensors to let users know if they are experiencing a more challenging part of their trip. If the sensor reads that air
+                   pressure is increasing then that means the cyclist is on an incline. To complete the resources page, I provided users with links to bike laws in Vancouver, gerenal cycling safety, 
+                   and access to the city of Vancouver website where they can learn more about the city they are cycling in.   </p>
     
                  
              
@@ -185,7 +185,7 @@
                </section>
              
              </main>
-            <p > The last feature that was implement was the ability for users to switch between light and dark mode. This was a user preference setting that users could toggle
+            <p > The last feature that I implemented was the ability for users to switch between light and dark mode. This was a user preference setting that users could toggle
                and could be saved based on the user's account.  </p>
                <img src="img/vancitypopularroutes.PNG" alt="poop" class="centerimg" >
                <figcaption class="figcap2">Light & Dark Mode Functionality</figcaption>
@@ -194,8 +194,8 @@
 
    
            <h2 >Final Product</h2>
-           <p> The video below is an overview and walk through of the application and it's features. For future development of Vancity Cyclying, the idea of a rating system for 
-              the routes were discussed but due to deadline constraints were left out of the presented app. Throughout the 8 weeks working on the projects I've developed a comfotable
+           <p> The video below is an overview and walk through of the application and it's features. For future development of Vancity Cyclying, we had the idea of a rating system for 
+              the routes but due to deadline constraints we left it out of the presented app. Throughout the 8 weeks working on the projects I've developed a comfotable
             understanding of designing and creating mobile applications such as using XML for front-end mobile application design and Java, JSON, and web APIs for backend mobile application
             development. Our group was lucky enough after presenting this to our peers to get the opporutnity by City of Vancouver to present a demonstration of the 
             VanCity Cycling to the transportation division of work done by bundergraduate students.  
