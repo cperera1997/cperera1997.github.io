@@ -239,6 +239,27 @@ html, .grid-container { height: 100%; margin: 0; }
   .fadeIn-top{
     top: 20%;
   }
+  
+  .footer{
+    position: inherit;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-image: -webkit-linear-gradient(to bottom right, #6930c3, 0%, #56cfe1 80%);
+    background-image: -moz-linear-gradient(to bottom right, #6930c3 0%, #56cfe1 100%);
+    background-image: linear-gradient(to bottom right, #6930c3 0%, #56cfe1 100%);    text-align: center;
+    color: #f4f4f4;
+}
+
+
+
+.company-name{
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 1.3rem;    padding: 1rem;
+
+    margin-top: 4rem;
+}
 
 
   @media only screen and (max-width: 800px){
