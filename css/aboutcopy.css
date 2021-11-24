@@ -9,6 +9,7 @@
 body{
   background-color: black;
   line-height: 2em;
+  width: 100%;
 
 }
 .footer{
@@ -23,7 +24,9 @@ body{
   color: #f4f4f4;
 }
 
-
+.header{
+  width: 100%;
+}
 
 .company-name{
   font-size: 1.6rem;
@@ -128,7 +131,7 @@ p {
   }
 
   .footer{
-    position: inherit;
+    position: relative;
     margin-top: 4rem;
     bottom: 0;
     left: 0;
