@@ -48,13 +48,37 @@ body{
   left: 32px;
 }
 
+.topspace{
+  margin-top: 3rem;
+  top:-35px
+}
+
+@media only screen and (max-width: 1700px) {
+  .topspace{
+    margin-top: 3rem;
+    top:-45px
+  }
+}
+@media only screen and (max-width: 1445px) {
+  .topspace{
+    margin-top: 3rem;
+    top:-65px
+  }
+}
+
+@media only screen and (max-width: 1218px) {
+  .topspace{
+    margin-top: 3rem;
+    top:-80px
+  }
+}
 
 h1 { 
   position: relative;
   top: 22px;
   left: 32px;
   font-size: 4rem;  
-  display: inline-block; 
+  display:inline-block; 
   font-family: 'Roboto';
   font-weight:500;
   color: white;
@@ -89,8 +113,8 @@ p {
 
    .fixp {
     /* position: ; */
-    margin-top: 0.4rem;
-    margin-left: 2rem;
+    margin-top: 6rem;
+    margin-left: -3rem;
     font-size: 1.3rem;  
     font-family: 'Roboto';
     font-weight:300;
@@ -141,6 +165,8 @@ p {
   
   .topspace{
     margin-top: 2rem;
+    top: -5px;
+
   }
   
   h1 { 
