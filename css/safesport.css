@@ -20,7 +20,7 @@ body { font-family: 'Roboto', sans-serif; font-size: 15px; font-weight: 300; lin
 figcaption{
   color: white;
   text-align: center;
-  margin-left: 4rem;
+  margin-left: -3rem;
   font-style: italic;
   margin-bottom: 1.5rem;
 }
@@ -280,7 +280,7 @@ color:white;
 
 .centerimg5 {
   display: inline-flex;
-  margin-left: 10%;
+  margin-left: 22.5%;
   margin-right: 10%;
   width: 50%;
   height: auto;
@@ -307,7 +307,6 @@ color:white;
 
 .image {
   opacity: 1;
-  display: block;
   width: 100%;
   height: auto;
   transition: .5s ease;
@@ -334,7 +333,7 @@ color:white;
 }
 
 .text {
-  background-color: #04AA6D;
+  background-color: #6930c3;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
@@ -525,7 +524,7 @@ iframe{
   width: 100%
 }
 .section2{
-  margin-left: 4rem;
+  margin-left: 30%;
 
   margin-right: 3rem;
 }
