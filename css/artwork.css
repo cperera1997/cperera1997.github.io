@@ -205,6 +205,7 @@ p{
   .spacer2{
     margin-top:17rem ;
   }
+
   }
 
   @media (max-width:2000px){
@@ -253,7 +254,7 @@ p{
   }
 
   .spacer6{
-    margin-top: 46rem;
+    margin-top: 53rem;
   }
 .rightimg {
   float: right;
@@ -456,6 +457,13 @@ video {
   }
 }
 
+@media (max-width:1836px){
+
+  .spacer6{
+    margin-top:46rem ;
+  }
+  }
+
 @media (max-width:1636px){
 .spacer7{
   margin-top:12rem ;
@@ -466,18 +474,25 @@ video {
 }
 }
 
-@media (max-width:1440px){
+@media (max-width:1500px){
   .spacer7{
     margin-top:9rem ;
   }
   
   .spacer6{
-    margin-top:29rem ;
+    margin-top:33rem ;
   }
   h2{
     font-size: 2rem;
   }
   }
+
+  @media (max-width:1360px){
+    .spacer6{
+      margin-top:25rem ;
+    }
+
+    }
 
   @media (max-width:1200px){
     .spacer7{
